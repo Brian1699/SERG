@@ -1,0 +1,9 @@
+{
+  "version":2,
+  "builds":[
+    {
+      "src":"cross-env NODE_ENV=production node src/server",
+      "use":"@vercel/node"
+    }
+  ]
+}
